@@ -39,7 +39,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "DbTest\\": "test/"
+            "Db\\Test\\": "test/"
         }
     },
     "scripts": {
