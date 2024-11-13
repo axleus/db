@@ -15,21 +15,11 @@ final class ConfigProvider
     {
         return [
             'dependencies' => $this->getDependencyConfig(),
-            //SettingsProvider::class => (new SettingsProvider)(),
         ];
     }
 
     public function getDependencyConfig(): array
     {
-        return [
-            'aliases' => [
-                EventManagerInterface::class => EventManager::class,
-                SharedEventManagerInterface::class => SharedEventManager::class,
-            ],
-            'factories' => [
-                EventManager::class => Service\EventManagerFactory::class,
-                SharedEventManager::class => Service\SharedEventManagerFactory::class,
-            ],
-        ];
+        return [];
     }
 }
