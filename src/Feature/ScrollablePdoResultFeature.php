@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Db\Feature;
 
-use Axleus\Db\Feature\ScrollablePdoResult\Result;
+use Db\Feature\ScrollablePdoResult\Result;
 use Laminas\Db\Adapter\Driver\Pdo\Pdo as PdoAdapter;
 use Laminas\Db\TableGateway\Feature\AbstractFeature;
 
