@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Db\Feature\ScrollablePdoResult;
 
-use Axleus\Db\Exception\InvalidArgumentException;
+use Db\Exception\InvalidArgumentException;
 use Laminas\Db\Adapter\Driver\Pdo;
 
 use function get_class;
